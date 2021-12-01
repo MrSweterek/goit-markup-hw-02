@@ -46,12 +46,33 @@ body {
   color: #08151f;
   text-decoration: none;
 }
+.logo-sta {
+  cursor: pointer;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+  text-decoration: none;
+}
 .logo:visited {
   color: #2196f3;
 }
 .header-menu {
   cursor: pointer;
   text-decoration: none;
+  padding-left: 20px;
+}
+.header-tel {
+  cursor: pointer;
+  text-decoration: none;
+  padding-left: 800px;
+}
+.header-mail {
+  cursor: pointer;
+  text-decoration: none;
+  padding-left: 50px;
 }
 .main {
   position: absolute;
@@ -112,6 +133,7 @@ body {
   display: inline;
 }
 .stats-list {
+  display: inline-block;
   width: 270px;
   height: 100px;
   list-style-type: none;
@@ -126,6 +148,10 @@ body {
 .jobs-list {
   display: inline;
   list-style-type: none;
+}
+.jobs-image {
+  width: 370px;
+  height: 294px;
 }
 .jobs-title {
   position: absolute;
@@ -145,10 +171,20 @@ body {
 }
 .team {
   position: absolute;
-  width: 1170px;
+  width: 1270px;
   height: 368px;
-  left: 215px;
+  left: 150px;
   top: 1635px;
+}
+.team-list {
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+}
+.team-image {
+  width: 270px;
+  height: 260px;
 }
 .team-title {
   position: absolute;
@@ -166,12 +202,18 @@ body {
 
   color: #212121;
 }
+.team-text-title {
+  width: 300px;
+}
+.team-text-content {
+  width: 300px;
+}
 .footer {
   position: absolute;
   width: 1600px;
-  height: 252px;
+  height: 152px;
   left: 0px;
-  top: 2097px;
+  top: 2197px;
   background-color: #2f303a;
 }
 .adress {
