@@ -151,4 +151,8 @@ body {
   height: 252px;
   left: 0px;
   top: 2097px;
+  background-color: #2f303a;
+}
+.adress {
+  color: #ffffff;
 }
