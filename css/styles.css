@@ -1,3 +1,9 @@
+body {
+  position: relative;
+  width: 1600px;
+  height: 2349px;
+  background: #ffffff;
+}
 .menu {
   position: absolute;
   width: 1600px;
@@ -5,36 +11,144 @@
   left: 0px;
   top: 0px;
 }
-.logo {
+.menu-nav {
   position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+}
+.menu-list {
+  list-style-type: none;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+.list {
+  display: inline;
+}
+.logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-
-  letter-spacing: 0.03em;
-
-  color: #2196f3;
 }
-.header-menu {
+.main {
   position: absolute;
-  width: 51px;
-  height: 16px;
-  left: 656px;
-  top: 32px;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background-color: #2f303a;
+}
+.main-order-title {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
 
   font-family: Roboto;
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.main-order-button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.main-order-button-content {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  align-items: center;
+  letter-spacing: 0.05em;
+  margin: auto;
+
+  color: #ffffff;
+}
+.stats {
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+  display: inline;
+}
+.stats-list {
+  width: 270px;
+  height: 100px;
+  list-style-type: none;
+}
+.jobs {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 1075px;
+}
+.jobs-list {
+  display: inline;
+  list-style-type: none;
+}
+.jobs-title {
+  position: absolute;
+  width: 352px;
+  height: 42px;
+  left: 624px;
+  top: 969px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
 
   color: #212121;
+}
+.team {
+  position: absolute;
+  width: 1170px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+}
+.team-title {
+  position: absolute;
+  width: 210px;
+  height: 42px;
+  left: 695px;
+  top: 1543px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #212121;
+}
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
 }
