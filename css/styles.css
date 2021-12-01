@@ -34,12 +34,24 @@ body {
   font-size: 26px;
   line-height: 31px;
   color: #2196f3;
+  text-decoration: none;
+}
+.logo-st {
+  cursor: pointer;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #08151f;
+  text-decoration: none;
 }
 .logo:visited {
   color: #2196f3;
 }
 .header-menu {
   cursor: pointer;
+  text-decoration: none;
 }
 .main {
   position: absolute;
@@ -67,9 +79,6 @@ body {
   text-transform: uppercase;
 
   color: #ffffff;
-}
-.main-order-title:hover {
-  text-decoration: underline;
 }
 .main-order-button {
   position: absolute;
